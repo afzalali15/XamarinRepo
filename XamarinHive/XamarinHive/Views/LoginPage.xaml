@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:XamarinHive"
+		x:Class="XamarinHive.LoginPage">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout Padding="16" Spacing="8" VerticalOptions="Center">
+				<Image Source="xamarin.jpg"></Image>
+				<Label Text="XamarinHive" HorizontalOptions="Center" FontSize="30"></Label>
+				<BoxView HeightRequest="20" BackgroundColor="Transparent"></BoxView>
+				<Entry x:Name="edtUsername" Placeholder="Username"></Entry>
+				<Entry x:Name="edtPassword" Placeholder="Password" IsPassword="true"></Entry>
+				<local:XCheckBox x:Name="chkRemember" Text="Remember me"></local:XCheckBox>
+				<local:XButton x:Name="btnLogin" BackgroundSource="selector_login" Clicked="btnLogin_Clicked" BackgroundColor="Transparent"></local:XButton>
+				<Label x:Name="lblVersion" Text="v0.1" HorizontalOptions="Center" VerticalOptions="EndAndExpand"></Label>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

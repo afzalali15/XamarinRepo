@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinHive", "XamarinHive\XamarinHive.csproj", "{F9710726-65D3-4375-AA76-2082E3D6BBA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinHive.Droid", "Droid\XamarinHive.Droid.csproj", "{634984A1-E108-46FA-A09B-08BF99465FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9710726-65D3-4375-AA76-2082E3D6BBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9710726-65D3-4375-AA76-2082E3D6BBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9710726-65D3-4375-AA76-2082E3D6BBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9710726-65D3-4375-AA76-2082E3D6BBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634984A1-E108-46FA-A09B-08BF99465FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634984A1-E108-46FA-A09B-08BF99465FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634984A1-E108-46FA-A09B-08BF99465FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634984A1-E108-46FA-A09B-08BF99465FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
