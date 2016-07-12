@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace XamarinHive
 {
@@ -10,12 +11,34 @@ namespace XamarinHive
         }
     }
 
-    public class XCheckBox : View
+    public class XEntry : Entry
     {
-        public bool IsChecked {
+        public string LeftIconSource {
             get;
             set;
         }
+
+        public string RightIconSource {
+            get;
+            set;
+        }
+
+        public string BackgroundSource {
+            get;
+            set;
+        }
+    }
+
+    public class XCheckBox : View
+    {
+        public Action Checked = delegate {
+        };
+
+        bool isChecked;
+        public bool IsChecked {
+            get; set;
+        }
+
         public string Text {
             get;
             set;
