@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FavBook;assembly=FavBook" x:Class="FavBook.SearchPage" Title="Search Books">
+	<StackLayout>
+		<StackLayout Orientation="Horizontal" Padding="16">
+			<Entry x:Name="edtSearch" Placeholder="Search with title.." HorizontalOptions="FillAndExpand">
+			</Entry>
+			<Button x:Name="btnSearch" Text="Search" Clicked="btnSearch_Clicked" HorizontalOptions="End">
+			</Button>
+		</StackLayout>
+		<ListView x:Name="lstBook" ItemSelected="lstBook_ItemSelected" ItemsSource="{Binding .}" SeparatorVisibility="None" BackgroundColor="Transparent" SeparatorColor="#DFDFDF" HasUnevenRows="false" RowHeight="160">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<local:Book_Item />
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</StackLayout>
+</ContentPage>

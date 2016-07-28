@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FavBook.BookDetailPage" Title="{Binding title}">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" Padding="16">
+			<Image Source="{Binding jacketUrl}">
+			</Image>
+			<Label x:Name="lblTitle" Text="{Binding title}" FontSize="30" FontAttributes="Bold">
+			</Label>
+			<Label x:Name="lblAuthor" Text="{Binding author}" FontAttributes="Bold">
+			</Label>
+			<Label x:Name="lblDescription" Text="{Binding keynote}">
+			</Label>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
