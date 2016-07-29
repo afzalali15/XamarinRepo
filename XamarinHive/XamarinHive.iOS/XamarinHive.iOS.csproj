@@ -130,7 +130,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\login_bt_ontouch.png" />
     <BundleResource Include="Resources\login_bt.png" />
-    <BundleResource Include="Resources\xamarin.jpg" />
+    <BundleResource Include="Resources\xamarin%402x.jpg" />
     <BundleResource Include="Resources\password_icon.png" />
     <BundleResource Include="Resources\text_box.png" />
     <BundleResource Include="Resources\user_icon.png" />
