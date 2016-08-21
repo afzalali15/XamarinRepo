@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:accordion="http://schemas.android.com/apk/res-auto/xam.android.control"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <xam.android.control.AccordionView
+            android:id="@+id/accordion_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            accordion:header_layout_fold_button_id="@id/foldButton"
+            accordion:header_layout_id="@layout/accordion_header"
+            accordion:header_layout_label_id="@id/foldText"
+            accordion:section_bottom="@layout/accordion_footer"
+            accordion:section_container="@layout/accordion_section"
+            accordion:section_container_parent="@id/section_content"
+            accordion:section_headers="@array/accordion_sections"
+            accordion:section_visibility="@array/accordion_visibility"
+            android:background="#fff5f5f5"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Done"
+                    android:tag="done" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/example_get_by_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Designation" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Done"
+                    android:tag="done" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="City" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Done"
+                    android:tag="done" />
+            </LinearLayout>
+        </xam.android.control.AccordionView>
+    </ScrollView>
+</LinearLayout>

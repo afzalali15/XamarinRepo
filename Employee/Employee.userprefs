@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Employee\Employee.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Employee\DialogProvider.cs">
+    <Files>
+      <File FileName="Employee\DialogProvider.cs" Line="29" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Employee" expanded="True">
+            <Node name="Employee.PCL" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Employee.Droid PreferredExecutionTarget="Android.ZX1C625GTT" />
+</Properties>
