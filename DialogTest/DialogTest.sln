@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogTest", "DialogTest\DialogTest.csproj", "{6A9CE897-61FB-4DB5-9327-90933E45C48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogTest.Portable", "DialogTest.Portable\DialogTest.Portable.csproj", "{034EC8B7-F7DE-4608-BF5C-A2897C0266EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A9CE897-61FB-4DB5-9327-90933E45C48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9CE897-61FB-4DB5-9327-90933E45C48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9CE897-61FB-4DB5-9327-90933E45C48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9CE897-61FB-4DB5-9327-90933E45C48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034EC8B7-F7DE-4608-BF5C-A2897C0266EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034EC8B7-F7DE-4608-BF5C-A2897C0266EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034EC8B7-F7DE-4608-BF5C-A2897C0266EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034EC8B7-F7DE-4608-BF5C-A2897C0266EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

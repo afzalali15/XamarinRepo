@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="DialogTest\DialogTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DialogTest PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DialogTest\MainActivity.cs">
+    <Files>
+      <File FileName="DialogTest\DialogProvider.cs" Line="65" Column="3" />
+      <File FileName="DialogTest\MainActivity.cs" Line="5" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
