@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SSListViewDemo.ParticipantsPage" xmlns:local="clr-namespace:SSListViewDemo" Title="Top Ranking">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="Fill">
+			<ListView x:Name="lstParticipant" VerticalOptions="FillAndExpand" BackgroundColor="{x:Static local:App.BGColor}" HasUnevenRows="true" SeparatorVisibility="None" ItemTapped="Handle_ItemTapped">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<local:ParticipantCell />
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

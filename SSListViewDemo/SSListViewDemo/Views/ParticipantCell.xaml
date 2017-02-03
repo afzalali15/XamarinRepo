@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SSListViewDemo.ParticipantCell" xmlns:local="clr-namespace:SSListViewDemo">
+	<ViewCell.View>
+		<Frame Margin="8,8,8,0" Padding="0">
+			<Frame.HasShadow>
+				<OnPlatform x:TypeArguments="x:Boolean">
+					<OnPlatform.iOS>false</OnPlatform.iOS>
+					<OnPlatform.Android>true</OnPlatform.Android>
+				</OnPlatform>
+			</Frame.HasShadow>
+			<StackLayout>
+				<Grid Padding="8">
+					<Label Text="{Binding handle}" Grid.Row="0" Grid.Column="0" FontSize="16" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Start" />
+					<Label Text="{Binding score}" Grid.Row="0" Grid.Column="1" FontSize="18" FontAttributes="Bold" TextColor="Black" HorizontalOptions="End" />
+					<Label Text="{Binding comment}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
+					<StackLayout Grid.Row="2" Grid.Column="0" Orientation="Horizontal">
+						<Image Source="time.png" />
+						<Label HorizontalOptions="Start" VerticalOptions="Center" Text="{Binding _DateTime, StringFormat='{0:HH:mm}'}" TextColor="Gray" />
+					</StackLayout>
+					<Label Text="{Binding _DateTime, StringFormat='{0:dd-MMM-yyyy}'}" Grid.Row="2" Grid.Column="1" HorizontalOptions="End" />
+				</Grid>
+				<BoxView HeightRequest="2" VerticalOptions="Fill" BackgroundColor="#607D8B" />
+			</StackLayout>
+		</Frame>
+	</ViewCell.View>
+</ViewCell>
